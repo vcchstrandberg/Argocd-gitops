@@ -3,7 +3,7 @@
 # Declare variables to be passed into your templates.
 replicaCount: 2
 image:
-  repository: test123jib/hello-gitops
+  repository: test123hans/hello-gitops
   tag: 21e14283af7da25af28e6421282554741e2ac036
   pullPolicy: Always
 imagePullSecret: docker
