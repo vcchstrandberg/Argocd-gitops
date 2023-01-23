@@ -21,7 +21,7 @@ func Test_handler(t *testing.T) {
 	}{
 		{
 			"status OK",
-			args{"/", http.StatusOK, fmt.Sprintf("Hello Bapp from %s", host)},
+			args{"/", http.StatusOK, fmt.Sprintf("Hello DE from %s", host)},
 		},
 	}
 
