@@ -4,7 +4,7 @@
 replicaCount: 2
 image:
   repository: test123hans/hello-gitops
-  tag: b6695a75c559acd77396f6ca826391951613a25b
+  tag: b6b3b97af49adf956be6e5149ea2b8cf78719bba
   pullPolicy: Always
 imagePullSecret: docker
 nameOverride: "hellodev"
